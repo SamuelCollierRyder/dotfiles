@@ -1,0 +1,32 @@
+2023-11-02 13:51:07.968 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-11-02 13:51:07.968 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-11-02 13:51:07.968 [info] Experiment 'pythonSurveyNotification' is active
+2023-11-02 13:51:07.968 [info] Experiment 'pythonTestAdaptercf' is active
+2023-11-02 13:51:07.968 [info] Default formatter is set to ms-python.autopep8 for workspace /home/sam/Code/Python/DAT565_labs/lab1
+2023-11-02 13:51:07.968 [info] Test server listening.
+2023-11-02 13:51:07.968 [info] Python interpreter path: /bin/python
+2023-11-02 13:51:07.992 [info] > conda info --json
+2023-11-02 13:51:08.214 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-11-02 13:51:08.214 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-11-02 13:51:08.214 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-11-02 13:51:08.216 [info] Found: /bin/python --> /bin/python3.11
+2023-11-02 13:51:08.278 [info] Found: /bin/python3 --> /bin/python3.11
+2023-11-02 13:51:08.278 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-11-02 13:51:08.339 [info] > ~/.pyenv/versions/3.11.6/bin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2023-11-02 13:51:08.349 [info] Found: /sbin/python --> /sbin/python3.11
+2023-11-02 13:51:08.350 [info] Found: /sbin/python3 --> /sbin/python3.11
+2023-11-02 13:51:08.350 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2023-11-02 13:51:08.356 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2023-11-02 13:51:08.356 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-11-02 13:51:08.356 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-11-02 13:51:08.385 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2023-11-02 13:51:08.386 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2023-11-02 13:51:08.386 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2023-11-02 13:51:08.425 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2023-11-02 13:51:08.458 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-11-02 13:51:09.397 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2023-11-02 13:51:09.683 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2023-11-02 13:51:09.717 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2023-11-02 13:51:10.086 [info] Starting Pylance language server.
+2023-11-02 13:51:30.448 [info] Discover tests for workspace name: lab1 - uri: /home/sam/Code/Python/DAT565_labs/lab1
+2023-11-02 13:51:30.449 [info] Python interpreter path: ~/.pyenv/versions/3.11.6/bin/python

@@ -1,0 +1,77 @@
+2023-11-02 13:55:44.293 [info] Name: isort
+2023-11-02 13:55:44.293 [info] Module: isort
+2023-11-02 13:55:44.293 [info] Python extension loading
+2023-11-02 13:55:44.293 [info] Waiting for interpreter from python extension.
+2023-11-02 13:55:44.293 [info] No interpreter found from setting isort.interpreter
+2023-11-02 13:55:44.293 [info] Getting interpreter from ms-python.python extension for workspace /home/sam/Code/Python/DAT565_labs/lab1
+2023-11-02 13:55:44.293 [info] Python extension loaded
+2023-11-02 13:55:44.293 [info] Interpreter from ms-python.python extension for /home/sam/Code/Python/DAT565_labs/lab1: /home/sam/.pyenv/versions/3.11.6/bin/python
+2023-11-02 13:55:44.293 [info] No interpreter found from setting isort.interpreter
+2023-11-02 13:55:44.293 [info] Getting interpreter from ms-python.python extension for workspace /home/sam/Code/Python/DAT565_labs/lab1
+2023-11-02 13:55:44.293 [info] Interpreter from ms-python.python extension for /home/sam/Code/Python/DAT565_labs/lab1: /home/sam/.pyenv/versions/3.11.6/bin/python
+2023-11-02 13:55:44.293 [info] Server run command: /home/sam/.pyenv/versions/3.11.6/bin/python /home/sam/.vscode/extensions/ms-python.isort-2023.10.1/bundled/tool/lsp_server.py
+2023-11-02 13:55:44.293 [info] Server: Start requested.
+2023-11-02 13:55:45.232 [info] CWD Server: /home/sam/Code/Python/DAT565_labs/lab1
+2023-11-02 13:55:45.232 [info] sys.path used to run Server:
+   /home/sam/.vscode/extensions/ms-python.isort-2023.10.1/bundled/libs
+   /home/sam/.vscode/extensions/ms-python.isort-2023.10.1/bundled/tool
+   /home/sam/.pyenv/versions/3.11.6/lib/python311.zip
+   /home/sam/.pyenv/versions/3.11.6/lib/python3.11
+   /home/sam/.pyenv/versions/3.11.6/lib/python3.11/lib-dynload
+   /home/sam/.pyenv/versions/3.11.6/lib/python3.11/site-packages
+2023-11-02 13:55:45.232 [info] Settings used to run Server:
+[
+    {
+        "check": false,
+        "cwd": "/home/sam/Code/Python/DAT565_labs/lab1",
+        "workspace": "file:///home/sam/Code/Python/DAT565_labs/lab1",
+        "args": [],
+        "path": [],
+        "severity": {
+            "W": "Warning",
+            "E": "Hint"
+        },
+        "interpreter": [
+            "/home/sam/.pyenv/versions/3.11.6/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-11-02 13:55:45.241 [info] Global settings:
+{
+    "check": false,
+    "cwd": "/home/sam",
+    "workspace": "/home/sam",
+    "args": [],
+    "path": [],
+    "severity": {
+        "W": "Warning",
+        "E": "Hint"
+    },
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-11-02 13:55:45.241 [info] /home/sam/.pyenv/versions/3.11.6/bin/python -m isort --version-number
+2023-11-02 13:55:45.242 [info] CWD Linter: /home/sam/Code/Python/DAT565_labs/lab1
+2023-11-02 13:55:45.242 [info] Version info for isort running for /home/sam/Code/Python/DAT565_labs/lab1:
+5.11.5
+
+2023-11-02 13:55:45.242 [info] SUPPORTED isort>=5.10.1
+FOUND isort==5.11.5
+
+2023-11-02 13:55:45.255 [info] [Trace - 1:55:45 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-11-02 13:55:45.272 [info] [Trace - 1:55:45 PM] Sending request 'textDocument/codeAction - (1)'.
+2023-11-02 13:55:45.281 [info] [Trace - 1:55:45 PM] Received response 'textDocument/codeAction - (1)' in 9ms.
+2023-11-02 13:55:45.323 [info] [Trace - 1:55:45 PM] Sending request 'textDocument/codeAction - (2)'.
+2023-11-02 13:55:45.325 [info] [Trace - 1:55:45 PM] Received response 'textDocument/codeAction - (2)' in 2ms.
+2023-11-02 13:55:45.693 [info] [Trace - 1:55:45 PM] Sending request 'textDocument/codeAction - (3)'.
+2023-11-02 13:55:45.704 [info] [Trace - 1:55:45 PM] Received response 'textDocument/codeAction - (3)' in 12ms.
+2023-11-02 13:55:47.453 [info] [Trace - 1:55:47 PM] Sending request 'textDocument/codeAction - (4)'.
+2023-11-02 13:55:47.455 [info] [Trace - 1:55:47 PM] Received response 'textDocument/codeAction - (4)' in 2ms.
+2023-11-02 13:55:57.909 [info] [Trace - 1:55:57 PM] Sending request 'shutdown - (5)'.
+2023-11-02 13:55:57.943 [info] [Trace - 1:55:57 PM] Received response 'shutdown - (5)' in 64ms.
+2023-11-02 13:55:57.943 [info] [Trace - 1:55:57 PM] Sending notification 'exit'.

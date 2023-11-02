@@ -1,0 +1,13 @@
+2023-11-02 13:59:49.110 [info] Log level: Info
+2023-11-02 13:59:49.110 [info] Validating found git in: "git"
+2023-11-02 13:59:49.110 [info] Using git "2.42.0" from "git"
+2023-11-02 13:59:49.110 [info] > git rev-parse --show-toplevel [6ms]
+2023-11-02 13:59:49.110 [info] > git rev-parse --git-dir --git-common-dir [160ms]
+2023-11-02 13:59:49.110 [info] Open repository: /home/sam/Code/Python/DAT565_labs
+2023-11-02 13:59:49.274 [info] > git config --get commit.template [149ms]
+2023-11-02 13:59:49.364 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [73ms]
+2023-11-02 13:59:49.383 [info] > git status -z -uall [9ms]
+2023-11-02 13:59:49.415 [info] > git config --get commit.template [4ms]
+2023-11-02 13:59:49.495 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2023-11-02 13:59:49.549 [info] > git status -z -uall [39ms]
+2023-11-02 13:59:49.682 [info] > git check-ignore -v -z --stdin [5ms]

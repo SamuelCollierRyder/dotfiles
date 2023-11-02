@@ -1,0 +1,8 @@
+2023-11-02 13:55:45.658 [info] [Info  - 1:55:45 PM] (5325) Pylance language server 2023.10.50 (pyright cfe56bfb) starting
+2023-11-02 13:55:45.658 [info] [Info  - 1:55:45 PM] (5325) Server root directory: /home/sam/.vscode/extensions/ms-python.vscode-pylance-2023.10.50/dist
+2023-11-02 13:55:45.663 [info] [Info  - 1:55:45 PM] (5325) Starting service instance "lab1"
+2023-11-02 13:55:45.723 [info] [Info  - 1:55:45 PM] (5325) Setting pythonPath for service "lab1": "/home/sam/.pyenv/versions/3.11.6/bin/python"
+2023-11-02 13:55:45.723 [info] [Info  - 1:55:45 PM] (5325) Setting environmentName for service "lab1": "3.11.6 (global)"
+2023-11-02 13:55:45.756 [info] [Info  - 1:55:45 PM] (5325) Assuming Python version 3.11
+2023-11-02 13:55:45.816 [info] [Info  - 1:55:45 PM] (5325) Found 1 source file
+2023-11-02 13:55:57.943 [info] [Error - 1:55:57 PM] Server process exited with code 0.

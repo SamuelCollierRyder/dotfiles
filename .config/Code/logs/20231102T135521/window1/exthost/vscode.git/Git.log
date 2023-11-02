@@ -1,0 +1,17 @@
+2023-11-02 13:55:24.361 [info] Log level: Info
+2023-11-02 13:55:24.361 [info] Validating found git in: "git"
+2023-11-02 13:55:24.361 [info] Using git "2.42.0" from "git"
+2023-11-02 13:55:24.361 [info] > git rev-parse --show-toplevel [269ms]
+2023-11-02 13:55:24.361 [info] > git rev-parse --git-dir --git-common-dir [178ms]
+2023-11-02 13:55:24.361 [info] Open repository: /home/sam/Code/Python/DAT565_labs
+2023-11-02 13:55:24.533 [info] > git rev-parse --show-toplevel [104ms]
+2023-11-02 13:55:24.534 [info] > git config --get commit.template [118ms]
+2023-11-02 13:55:24.902 [info] > git rev-parse --show-toplevel [91ms]
+2023-11-02 13:55:24.934 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [58ms]
+2023-11-02 13:55:25.020 [info] > git status -z -uall [70ms]
+2023-11-02 13:55:25.020 [info] > git check-ignore -v -z --stdin [41ms]
+2023-11-02 13:55:25.033 [info] > git rev-parse --show-toplevel [101ms]
+2023-11-02 13:55:25.104 [info] > git rev-parse --show-toplevel [42ms]
+2023-11-02 13:55:25.105 [info] > git config --get commit.template [53ms]
+2023-11-02 13:55:25.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2023-11-02 13:55:25.220 [info] > git status -z -uall [4ms]

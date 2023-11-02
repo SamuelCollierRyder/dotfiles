@@ -1,0 +1,5 @@
+2023-11-02 15:24:33.682 [info] update#setState idle
+2023-11-02 15:24:46.136 [warning] [UtilityProcessWorker]: createWorker() found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+2023-11-02 15:24:46.159 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 15627]: crashed with code 15 and reason 'killed'
+2023-11-02 15:25:00.044 [info] Extension host with pid 15646 exited with code: 0, signal: unknown.
+2023-11-02 15:25:00.048 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 15957]: crashed with code 15 and reason 'killed'

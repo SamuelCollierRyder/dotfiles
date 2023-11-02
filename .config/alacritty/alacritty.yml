@@ -1,0 +1,11 @@
+shell: 
+  program: /bin/zsh
+
+window:
+  opacity: 0.9
+
+font:
+  normal:
+    family: "JetBrainsMono Nerd Font Mono"
+    style: "Regular"
+  size: 10

@@ -1,0 +1,68 @@
+2023-11-02 13:55:44.286 [info] Name: autopep8
+2023-11-02 13:55:44.286 [info] Module: autopep8
+2023-11-02 13:55:44.286 [info] Python extension loading
+2023-11-02 13:55:44.286 [info] Waiting for interpreter from python extension.
+2023-11-02 13:55:44.286 [info] No interpreter found from setting autopep8.interpreter
+2023-11-02 13:55:44.286 [info] Getting interpreter from ms-python.python extension for workspace /home/sam/Code/Python/DAT565_labs/lab1
+2023-11-02 13:55:44.286 [info] Python extension loaded
+2023-11-02 13:55:44.286 [info] Interpreter from ms-python.python extension for /home/sam/Code/Python/DAT565_labs/lab1: /home/sam/.pyenv/versions/3.11.6/bin/python
+2023-11-02 13:55:44.286 [info] No interpreter found from setting autopep8.interpreter
+2023-11-02 13:55:44.286 [info] Getting interpreter from ms-python.python extension for workspace /home/sam/Code/Python/DAT565_labs/lab1
+2023-11-02 13:55:44.286 [info] Interpreter from ms-python.python extension for /home/sam/Code/Python/DAT565_labs/lab1: /home/sam/.pyenv/versions/3.11.6/bin/python
+2023-11-02 13:55:44.286 [info] Server run command: /home/sam/.pyenv/versions/3.11.6/bin/python /home/sam/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py
+2023-11-02 13:55:44.286 [info] Server: Start requested.
+2023-11-02 13:55:45.231 [info] CWD Server: /home/sam/Code/Python/DAT565_labs/lab1
+2023-11-02 13:55:45.232 [info] sys.path used to run Server:
+   /home/sam/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs
+   /home/sam/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool
+   /home/sam/.pyenv/versions/3.11.6/lib/python311.zip
+   /home/sam/.pyenv/versions/3.11.6/lib/python3.11
+   /home/sam/.pyenv/versions/3.11.6/lib/python3.11/lib-dynload
+   /home/sam/.pyenv/versions/3.11.6/lib/python3.11/site-packages
+2023-11-02 13:55:45.232 [info] PYTHONPATH env variable used to run Server:
+   /home/sam/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs:
+2023-11-02 13:55:45.241 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/sam/Code/Python/DAT565_labs/lab1",
+        "workspace": "file:///home/sam/Code/Python/DAT565_labs/lab1",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/home/sam/.pyenv/versions/3.11.6/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-11-02 13:55:45.241 [info] Global settings:
+{
+    "cwd": "/home/sam",
+    "workspace": "/home/sam",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-11-02 13:55:45.242 [info] /home/sam/.pyenv/versions/3.11.6/bin/python -m autopep8 --version
+2023-11-02 13:55:45.242 [info] CWD Server: /home/sam/Code/Python/DAT565_labs/lab1
+2023-11-02 13:55:45.242 [info] Version info for formatter running for /home/sam/Code/Python/DAT565_labs/lab1:
+autopep8 2.0.2 (pycodestyle: 2.10.0)
+
+2023-11-02 13:55:45.243 [info] SUPPORTED autopep8>=1.7.0
+FOUND autopep8==2.0.2
+
+2023-11-02 13:55:45.243 [info] /home/sam/.pyenv/versions/3.11.6/bin/python -m autopep8 --version
+2023-11-02 13:55:45.245 [info] CWD Server: /home/sam/Code/Python/DAT565_labs/lab1
+2023-11-02 13:55:45.291 [info] Version info for formatter running for /home/sam/Code/Python/DAT565_labs/lab1:
+autopep8 2.0.2 (pycodestyle: 2.10.0)
+
+2023-11-02 13:55:45.291 [info] SUPPORTED autopep8>=1.7.0
+FOUND autopep8==2.0.2
+
+2023-11-02 13:55:57.909 [info] [Trace - 1:55:57 PM] Sending request 'shutdown - (1)'.
+2023-11-02 13:55:57.943 [info] [Trace - 1:55:57 PM] Received response 'shutdown - (1)' in 65ms.
+2023-11-02 13:55:57.943 [info] [Trace - 1:55:57 PM] Sending notification 'exit'.
