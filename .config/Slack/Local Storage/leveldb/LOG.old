@@ -1,6 +1,0 @@
-2023/11/02-13:06:47.961 1618 Reusing MANIFEST /home/sam/.config/Slack/Local Storage/leveldb/MANIFEST-000001
-2023/11/02-13:06:47.961 1618 Recovering log #3
-2023/11/02-13:06:47.962 1618 Reusing old log /home/sam/.config/Slack/Local Storage/leveldb/000003.log 
-2023/11/02-13:07:49.029 1618 Level-0 table #5: started
-2023/11/02-13:07:49.035 1618 Level-0 table #5: 19011 bytes OK
-2023/11/02-13:07:49.037 1618 Delete type=0 #3

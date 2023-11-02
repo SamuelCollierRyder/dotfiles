@@ -1,6 +1,0 @@
-2023/11/02-10:03:37.093 2f5 Reusing MANIFEST /home/sam/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2023/11/02-10:03:37.093 2f5 Recovering log #3
-2023/11/02-10:03:37.115 2f5 Reusing old log /home/sam/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000003.log 
-2023/11/02-10:39:48.793 34b Level-0 table #5: started
-2023/11/02-10:39:48.803 34b Level-0 table #5: 1261030 bytes OK
-2023/11/02-10:39:48.804 34b Delete type=0 #3
