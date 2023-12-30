@@ -1,0 +1,12 @@
+[font]
+size = 9
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+opacity = 0.9

@@ -1,8 +1,0 @@
-2023-11-02 15:24:34.782 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-11-02 15:24:34.793 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'terminalContextMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-11-02 15:24:37.739 [info] [perf] Render performance baseline is 35ms
-2023-11-02 15:24:38.926 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
-2023-11-02 15:24:39.352 [error] [Extension Host] (node:15646) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `exe --trace-deprecation ...` to show where the warning was created)
-2023-11-02 15:24:46.135 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/sam/.config/Code/logs/20231102T082553/window2/exthost/vscodevim.vim' failed: No such file or directory (EUNKNOWN) (path: /home/sam)
-2023-11-02 15:24:46.135 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/sam/.config/Code/logs/20231102T082553/window2/exthost/vscodevim.vim' failed: No such file or directory
