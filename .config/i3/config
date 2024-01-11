@@ -22,9 +22,12 @@ exec --no-startup-id picom -b
 # Set wallpaper
 exec --no-startup-id feh --bg-scale ~/Documents/wallpaper.png
 
+# Fix stupid touchpad settings
+exec --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" 306 1
+exec --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" 333 1
 
-exec --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" 304 1
-exec --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" 331 1
+# Rebind caps
+exec --no-startup-id xmodmap ~/.Xmodmap
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -43,6 +46,12 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+
+bindsym $mod+Shift+u exec --no-startup-id ~/Code/scripts/english.sh
+bindsym $mod+Shift+s exec --no-startup-id ~/Code/scripts/swedish.sh
+bindsym Print exec flameshot gui
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -65,7 +74,8 @@ bindsym $mod+d exec --no-startup-id rofi -show run
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
-bindsym $mod+b exec firefox
+bindsym $mod+b exec vivaldi
+bindsym $mod+f exec "alacritty  -e ranger"
 
 # change focus
 bindsym $mod+h focus left
@@ -98,7 +108,7 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+bindsym $mod+m fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -194,10 +204,11 @@ bar {
 	position top
         status_command i3status
 }
-default_border pixel 1
-default_floating_border pixel 1
+
+default_border pixel 2
+default_floating_border pixel 2
 hide_edge_borders smart
 client.focused          #4c7899 #285577 #ffffff #00FFFF   #00FFFF
 focus_follows_mouse no
 
-
+for_window [class="^.*"] border pixel 2
