@@ -1,8 +1,0 @@
-
-[Default Applications]
-application/x-extension-burp=install4j_wavju6-BurpSuiteCommunity.desktop
-text/html=vivaldi-stable.desktop
-x-scheme-handler/http=vivaldi-stable.desktop
-x-scheme-handler/https=vivaldi-stable.desktop
-x-scheme-handler/about=vivaldi-stable.desktop
-x-scheme-handler/unknown=vivaldi-stable.desktop

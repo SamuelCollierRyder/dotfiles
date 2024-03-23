@@ -2,7 +2,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -23,11 +23,11 @@ exec --no-startup-id picom -b
 exec --no-startup-id feh --bg-scale ~/Documents/wallpaper.png
 
 # Fix stupid touchpad settings
-exec --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" 306 1
-exec --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" 333 1
+exec --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" "libinput Natural Scrolling Enabled" 1
+exec --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" "libinput Tapping Enabled" 1
 
-# Rebind caps
-exec --no-startup-id xmodmap ~/.Xmodmap
+# Rebind keys
+exec --no-startup-id setxkbmap -option caps:escape -option altwin:swap_alt_win
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -38,7 +38,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -76,6 +76,7 @@ bindsym $mod+d exec --no-startup-id rofi -show run
 
 bindsym $mod+b exec vivaldi
 bindsym $mod+f exec "alacritty  -e ranger"
+bindsym $mod+p exec "alacritty  -e python3"
 
 # change focus
 bindsym $mod+h focus left

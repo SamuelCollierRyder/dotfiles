@@ -1,8 +1,9 @@
 [font]
-size = 9
+size = 7.5
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "JetBrains Mono Nerd Font"
+#family = "MesloLGS NF"
 style = "Regular"
 
 [shell]
