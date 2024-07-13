@@ -16,19 +16,11 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
-zinit light Aloxaf/fzf-tab
 
-# Laod completions
 autoload -U compinit && compinit
-zinit cdreplay -q
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Keybindings
-bindkey -v
-bindkey '^a' autosuggest-accept
-bindkey '^j' history-search-backward
-bindkey '^k' history-search-forward
 
 # History
 HISTSIZE=5000
@@ -46,20 +38,22 @@ setopt hist_find_no_dups
 # Completion styling
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
-zstyle ':completion:*' menu no
+
 
 # Aliases
 alias ls='ls --color' 
-
-# Shell initialization
-eval "$(fzf --zsh)"
+alias :q='exit'
 
 # Pyenv setup
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+# Keybindings
+bindkey '^L' autosuggest-accept
+
 # Set theme
 export GTK_THEME=Adwaita:dark
 export GTK2_RC_FILES=/usr/share/themes/Adwaita-dark/gtk-2.0/gtkrc
 export QT_STYLE_OVERRIDE=adwaita-dark
+
