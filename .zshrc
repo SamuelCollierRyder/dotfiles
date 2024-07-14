@@ -50,7 +50,7 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 # Keybindings
-bindkey '^L' autosuggest-accept
+bindkey '^[[Z' autosuggest-accept
 
 # Set theme
 export GTK_THEME=Adwaita:dark
