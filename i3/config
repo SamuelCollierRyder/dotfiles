@@ -23,12 +23,12 @@ exec --no-startup-id picom -b
 exec --no-startup-id feh --bg-scale ~/Documents/wallpaper.png
 
 # Fix stupid touchpad settings
-exec --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" "libinput Natural Scrolling Enabled" 1
-exec --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" "libinput Tapping Enabled" 1
-exec --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" "libinput Accel Speed" 0.15
+exec_always --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" "libinput Natural Scrolling Enabled" 1
+exec_always --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" "libinput Tapping Enabled" 1
+exec_always --no-startup-id xinput set-prop "DLL0945:00 04F3:311C Touchpad" "libinput Accel Speed" 0.15
 
 # Rebind keys
-exec --no-startup-id setxkbmap -option caps:escape -option altwin:swap_alt_win
+exec_always --no-startup-id setxkbmap -option caps:escape -option altwin:swap_alt_win
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -50,8 +50,9 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
-bindsym $mod+Shift+u exec --no-startup-id ~/Code/scripts/english.sh
-bindsym $mod+Shift+s exec --no-startup-id ~/Code/scripts/swedish.sh
+# bindsym $mod+Shift+u exec --no-startup-id ~/Code/scripts/english.sh
+# bindsym $mod+Shift+s exec --no-startup-id ~/Code/scripts/swedish.sh
+bindsym $mod+Shift+s exec --no-startup-id ~/Code/scripts/swap_language.sh
 bindsym Print exec flameshot gui
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -206,7 +207,7 @@ bindsym $mod+r mode "resize"
 # 	position top
 #         status_command i3status
 # }
-exec --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 default_border pixel 2
 default_floating_border pixel 2

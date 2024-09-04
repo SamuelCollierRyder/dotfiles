@@ -3,7 +3,7 @@ size = 7.5
 
 [font.normal]
 family = "JetBrains Mono Nerd Font"
-#family = "MesloLGS NF"
+# family = "MesloLGS NF"
 style = "Regular"
 
 [shell]
